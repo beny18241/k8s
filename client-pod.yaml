@@ -3,10 +3,10 @@ kind: Pod
 metadata:
   name: client-pod
   labels:
-    component:  web
+    component: web
 spec:
   containers:
-    -name:  client
-    image:  beny18241/complex-client
-    ports:
-      - containerPort:  3000
+    - name: client
+      image: beny18241/complex-client
+      ports:
+        - containerPort:  3000

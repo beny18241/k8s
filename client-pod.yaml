@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: beny18241/complex-client
+      image: beny18241/complex-worker
       ports:
         - containerPort:  3000
